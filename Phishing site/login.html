@@ -1,0 +1,40 @@
+<!-- <div class="start-div" layout="row" layout-align="center center" flex>
+  <div layout="row">
+   <md-button class="md-primary md-raised continue-margin" ng-click="loginWithFacebook()" flex>Login with Facebook</md-button>
+  </div>
+  <div layout="row" layout-align="center center">
+   <md-divider flex></md-divider>
+   <span class="text-align" flex="10">or</span>
+   <md-divider flex></md-divider>
+  </div>
+  <form ng-submit="loginWithEmail(Email, password)">
+   <md-input-container flex="100">
+    <label>Email</label>
+    <input ng-model="Email">
+   </md-input-container>
+   <md-input-container>
+    <label>Password</label>
+    <input type="password" ng-model="password">
+   </md-input-container>
+   <div layout="row">
+    <md-button class="md-primary md-raised" ng-disabled="!Email || !password" flex>Login</md-button>
+    <md-button class="md-primary" type="button" ng-click="showSignUpDialog()" flex>Sign up</md-button>
+   </div>
+  </form>
+</div> -->
+
+<md-content>
+  <div layout="column">
+    <h1>Insert text {{password}}</h1>
+    <form ng-submit="logthestuffin">
+      <md-input-container>
+        <label>Email</label>
+        <input ng-model="email">
+      </md-input-container>
+      <md-input-container>
+        <label>Password</label>
+        <input ng-model="password" type="password">
+      </md-input-cotainer>
+    </form>
+  </div>
+</md-content>
